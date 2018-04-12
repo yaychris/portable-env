@@ -2,7 +2,7 @@
 
 set -e
 
-mkdir ~/.portable-env
+mkdir -p ~/.portable-env
 git clone git@github.com:yaychris/portable-env.git ~/.portable-env
 
 ln -s -f ~/{.portable-env/,}.bash_aliases
